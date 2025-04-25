@@ -8,8 +8,8 @@ html_file = "./bookmarks_2025_4_23.html"
 
 
 openai_client = OpenAI(
-    api_key="sk-XMKy0fgxbzKLBT68tIpUFImW1lQkNwNQVhWpu3nZ7vuaILoF",
-    base_url="https://api.deepbricks.ai/v1/",
+    api_key="sk-XMKy0xxxx3nZ7vuaILoF",
+    base_url="https://api.openai.com/v1",
 )
 
 def extra_link_attr(html_content):
