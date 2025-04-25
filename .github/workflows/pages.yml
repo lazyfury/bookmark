@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./bookmarknav  # 设置子目录为工作区
+        working-directory: ${{ github.workspace }}/bookmarknav  # 设置子目录为工作区
     steps:
       - name: Checkout
         uses: actions/checkout@v4
