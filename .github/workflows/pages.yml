@@ -36,7 +36,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Print working directory
-        run: pwd
+        run: pwd && ls
       - name: Detect package manager
         id: detect-package-manager
         run: |
