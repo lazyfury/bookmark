@@ -32,10 +32,11 @@ jobs:
       run:
         working-directory: ${{ github.workspace }}/bookmarknav  # 设置子目录为工作区
     steps:
-      - name: Print working directory
-        run: pwd
+      
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Print working directory
+        run: pwd
       - name: Detect package manager
         id: detect-package-manager
         run: |
